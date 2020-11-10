@@ -38,11 +38,11 @@ task main()
     else if(vexRT[Btn5D] == 1)
     {
     	motor[clawMotor] = -40;
-  	}
-  	else
-  		{
-  			motor[clawMotor] = -40;
-  		}
+    }
+    else:
+	{
+	motor[clawMotor] = -40;
+	}
 	}
 
 
